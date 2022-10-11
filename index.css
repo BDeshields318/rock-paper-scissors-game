@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    background-color: grey;
+}
+
+#gameContainer {
+    text-align: center;
+    border: 3px solid;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.gameText {
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(5, 114, 5);
+    background-color: black;
+}
+
+.choiceBtn {
+    width: 100px;
+    height: 25px;
+    border: 3px solid;
+    border-radius: 15px;
+    background-color: rgb(5, 114, 5);
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
